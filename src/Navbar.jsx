@@ -21,7 +21,7 @@ export default function NavBar() {
       >
         <Container>
           <Navbar.Brand>
-            <NavLink to="/random-advice/" style={{ textDecoration: "none", color: "white" }}>
+            <NavLink to="random-advice" style={{ textDecoration: "none", color: "white" }}>
               <h1 className="text-center bi-bell" id="nav-brand">
                 &nbsp;Rand<i className="bi-check-circle fs-4"></i>m Advice
               </h1>
@@ -32,7 +32,7 @@ export default function NavBar() {
           <Navbar.Collapse id="responsive-navbar-nav">
             <Nav className="me-auto">
               <Nav.Link href="#" active>
-                <NavLink to="/random-advice/" style={style}>
+                <NavLink to="random-advice" style={style}>
                   Home
                 </NavLink>
               </Nav.Link>
