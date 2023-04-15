@@ -12,7 +12,7 @@ export default function App() {
     <>
     <NavBar />
     <Routes>
-        <Route path="/random-advice/" element={<Advice />} />
+        <Route path="/random-advice" element={<Advice />} />
         <Route path="search" element={<SearchAdvice />} />
         <Route path="about" element={<About />} />
         <Route path="contact" element={<Contact/>} />
