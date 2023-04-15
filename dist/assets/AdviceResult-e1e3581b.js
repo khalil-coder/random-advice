@@ -1,0 +1,1 @@
+import{j as e}from"./index-c75963cc.js";function r({result:t,err:l}){return e("div",{children:t.length!=0?t.map((i,s)=>e("ul",{className:"list-group p-2 m-2",children:e("li",{className:"list-item-group li",style:{color:"white",listStyleType:"none"},children:i.advice})})):e("p",{className:"text-light mt-5 text-center",children:l})})}export{r as default};
