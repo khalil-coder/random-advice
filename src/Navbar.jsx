@@ -21,7 +21,7 @@ export default function NavBar() {
       >
         <Container>
           <Navbar.Brand>
-            <NavLink to="/" style={{ textDecoration: "none", color: "white" }}>
+            <NavLink to="/random-advice/" style={{ textDecoration: "none", color: "white" }}>
               <h1 className="text-center bi-bell" id="nav-brand">
                 &nbsp;Rand<i className="bi-check-circle fs-4"></i>m Advice
               </h1>
